@@ -1,0 +1,9 @@
+.lead {
+  display: grid;
+  justify-items: center;
+
+  color: white;
+  margin: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
