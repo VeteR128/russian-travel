@@ -6,11 +6,22 @@
   line-height: 117%;
   text-decoration: none;
   color: white;
+  align-items: stretch;
+}
+.header__lang {
+  margin-bottom: 5px;
 }
 .header__lang-link:first-child {
   margin-right: 18px;
   text-decoration: underline;
 }
+@media screen and (max-width: 480px) {
+  .header__lang-link {
+    font-size: 1.3rem;
+    line-height: 111%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 1.125rem;

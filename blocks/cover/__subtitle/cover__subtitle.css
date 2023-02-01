@@ -11,15 +11,24 @@
 
   text-align: center;
   width: 360px;
-  height: 66px;
+
   margin: 32px 0 0 0;
+}
+@media screen and (max-width: 560px) {
+  .cover__subtitle {
+    font-size: 0.875rem;
+    line-height: 114%;
+    width: 288px;
+
+    margin: 16px 0 0 0;
+  }
 }
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     font-size: 0.875rem;
     line-height: 114%;
     width: 288px;
-    height: 48px;
+
     margin: 16px 0 0 0;
   }
 }

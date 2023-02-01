@@ -4,7 +4,6 @@
   margin-right: 40px;
   grid-row: 2;
   width: 460px;
-  height: 460px;
 }
 @media screen and (max-width: 1024px) {
   .place__img {
@@ -12,7 +11,6 @@
 
     margin-right: 32px;
     width: 440px;
-    height: 440px;
   }
 }
 
@@ -22,7 +20,11 @@
 
     margin-right: 28px;
     width: 340px;
-    height: 340px;
+  }
+}
+@media screen and (max-width: 555px) {
+  .place__img {
+    width: 75%;
   }
 }
 @media screen and (max-width: 320px) {
@@ -31,6 +33,5 @@
     grid-row: 3;
 
     width: 320px;
-    height: 320px;
   }
 }

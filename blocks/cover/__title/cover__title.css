@@ -11,15 +11,25 @@
   line-height: 106%;
   text-align: center;
   width: 560px;
-  height: 152px;
+
   margin: 0;
 }
+@media screen and (max-width: 560px) {
+  .cover__title {
+    font-size: 2rem;
+    line-height: 109%;
+    width: 288px;
+
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 2rem;
     line-height: 109%;
     width: 288px;
-    height: 70px;
+
     text-align: center;
   }
 }

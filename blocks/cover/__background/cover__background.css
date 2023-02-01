@@ -6,6 +6,7 @@
   background: #2a2c2f;
   opacity: 0.8;
   transition: opacity ease-in-out 1s;
+  width: 92.5%;
 }
 @media screen and (max-width: 1024px) {
   .cover__background {
@@ -17,11 +18,12 @@
 @media screen and (max-width: 768px) {
   .cover__background {
     margin: 0;
+    width: 100%;
   }
 }
 @media screen and (max-width: 320px) {
   .cover__background {
     margin: 0;
-    width: 320px;
+    width: 100%;
   }
 }
