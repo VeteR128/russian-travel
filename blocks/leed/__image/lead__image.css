@@ -3,11 +3,13 @@
   grid-row: 3;
   margin: 0;
   width: 984px;
+
+  object-fit: cover;
 }
 @media screen and (max-width: 1024px) {
   .lead__image {
     margin: 0;
-    width: 100%;
+    width: 90.625%;
   }
 }
 
