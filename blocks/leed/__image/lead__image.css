@@ -5,6 +5,7 @@
   width: 984px;
 
   object-fit: cover;
+  object-position: left 0 right 0;
 }
 @media screen and (max-width: 1024px) {
   .lead__image {

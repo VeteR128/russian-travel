@@ -8,6 +8,7 @@
   transition: opacity ease-in-out 1s;
   width: 92.5%;
   object-fit: cover;
+  object-position: left 0 right 0;
 }
 @media screen and (max-width: 1024px) {
   .cover__background {
