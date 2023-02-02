@@ -5,39 +5,54 @@
   font-size: 4.5rem;
   line-height: 106%;
 
-  margin: 0 40px 48px 148px;
+  margin: 0 0 48px 0;
   grid-column: 1;
   grid-row: 1;
   width: 460px;
+  align-self: end;
+
+  justify-self: start;
 }
 @media screen and (max-width: 1024px) {
   .place__title {
-    margin: 0 32px 48px 48px;
+    margin: 0 0 48px 0;
     width: 440px;
+  }
+}
+@media screen and (max-width: 866px) {
+  .place__title {
+    margin: 0 0 48px 0;
+    font-size: 2.625rem;
+    line-height: 110%;
+    width: 400px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
-    margin: 0 26px 48px 24px;
-    width: 340px;
+    margin: 0 0 48px 0;
 
     font-size: 2.625rem;
     line-height: 110%;
+    width: 340px;
+  }
+}
+@media screen and (max-width: 668px) {
+  .place__title {
+    width: 190px;
   }
 }
 @media screen and (max-width: 555px) {
   .place__title {
-    width: 50%;
     font-size: 2rem;
     line-height: 110%;
   }
 }
-@media screen and (max-width: 409px) {
+@media screen and (max-width: 469px) {
   .place__title {
-    width: 50%;
     font-size: 1.5rem;
     line-height: 110%;
+    width: 100px;
   }
 }
 @media screen and (max-width: 320px) {

@@ -1,5 +1,5 @@
 .lead__subtitle {
-  margin: 0 320px 64px;
+  margin: 0 0 64px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -10,13 +10,13 @@
 }
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    margin: 0 192px 56px;
+    margin: 0 0 56px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    margin: 0 64px 56px;
+    margin: 0 0 56px;
     font-size: 1.475rem;
     line-height: 120%;
     width: 90%;
@@ -24,7 +24,7 @@
 }
 @media screen and (max-width: 480px) {
   .lead__subtitle {
-    margin: 0 64px 56px;
+    margin: 0 0 56px;
     font-size: 1.275rem;
     line-height: 120%;
     width: 90%;
@@ -32,7 +32,7 @@
 }
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-    margin: 0 16px 40px;
+    margin: 0 0 40px;
     font-size: 1rem;
     line-height: 125%;
     width: 288px;

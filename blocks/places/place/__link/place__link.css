@@ -6,4 +6,5 @@
   line-height: 122%;
   text-decoration: underline;
   color: white;
+  word-break: break-all;
 }

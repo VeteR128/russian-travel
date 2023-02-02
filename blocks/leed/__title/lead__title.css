@@ -1,5 +1,5 @@
 .lead__title {
-  margin: 56px 16% 32px;
+  margin: 56px 0 32px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
@@ -10,13 +10,13 @@
 }
 @media screen and (max-width: 1024px) {
   .lead__title {
-    margin: 48px 152px 32px;
+    margin: 48px 0 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    margin: 48px 24px 32px;
+    margin: 48px 0 32px;
     width: 90%;
     font-size: 6rem;
     line-height: 104%;
@@ -24,7 +24,7 @@
 }
 @media screen and (max-width: 747px) {
   .lead__title {
-    margin: 48px 24px 32px;
+    margin: 48px 0 32px;
     width: 90%;
     font-size: 3.5rem;
     line-height: 104%;
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 480px) {
   .lead__title {
-    margin: 48px 24px 32px;
+    margin: 48px 0 32px;
     font-size: 2.7rem;
     line-height: 104%;
     width: 95%;
@@ -41,7 +41,7 @@
 }
 @media screen and (max-width: 320px) {
   .lead__title {
-    margin: 48px 16px 16px;
+    margin: 48px 0 16px;
     width: 288px;
 
     font-size: 2.5rem;

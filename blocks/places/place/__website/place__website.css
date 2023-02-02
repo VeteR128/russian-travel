@@ -2,19 +2,20 @@
   grid-row: 1;
   grid-column: 2;
   align-self: flex-end;
-  margin-right: 176px;
+  margin-right: 0;
   margin-bottom: 48px;
+  justify-self: start;
 }
 @media screen and (max-width: 1024px) {
   .place__website {
-    margin-right: 48px;
+    margin-right: 0;
     margin-bottom: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__website {
-    margin-right: 24px;
+    margin-right: 0;
     margin-bottom: 48px;
   }
 }

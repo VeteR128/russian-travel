@@ -1,13 +1,13 @@
 .lead__image {
   grid-column: 1;
   grid-row: 3;
-  margin: 0 148px;
+  margin: 0;
   width: 984px;
 }
 @media screen and (max-width: 1024px) {
   .lead__image {
-    margin: 0 48px;
-    width: 90.625%;
+    margin: 0;
+    width: 100%;
   }
 }
 
