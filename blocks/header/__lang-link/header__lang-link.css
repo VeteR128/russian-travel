@@ -8,8 +8,7 @@
   color: white;
   align-items: stretch;
 }
-
-.header__lang-link:active {
+.header__lang-link:first-child {
   text-decoration: underline;
 }
 .header__lang-link:last-child {
