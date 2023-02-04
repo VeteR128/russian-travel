@@ -3,30 +3,19 @@
   grid-column: 1;
   grid-row: 1/3;
   margin: 0;
-  background: #2a2c2f;
+  background: url(../../../image/__background.png) no-repeat;
   opacity: 0.8;
   transition: opacity ease-in-out 1s;
   width: 92.5%;
-  object-fit: cover;
-  object-position: left 0 right 0;
+
+  position: relative;
+  background-size: 100% 100%;
+
+  object-position: 0 0;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__background {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__background {
-    margin: 0;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .cover__background {
-    margin: 0;
     width: 100%;
   }
 }

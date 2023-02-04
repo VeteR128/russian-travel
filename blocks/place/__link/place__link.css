@@ -1,0 +1,21 @@
+.place__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 122%;
+  text-decoration: underline;
+  color: white;
+}
+@media screen and (max-width: 710px) {
+  .place__link {
+    font-size: 0.5rem;
+    line-height: 105%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__link {
+    font-size: 1.125rem;
+    line-height: 122%;
+  }
+}

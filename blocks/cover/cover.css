@@ -1,8 +1,5 @@
 .cover {
   display: grid;
   color: #ffffff;
-}
-.cover:hover .cover__background {
-  opacity: 0.3;
-  background: #2a2c2f;
+  text-decoration: none;
 }

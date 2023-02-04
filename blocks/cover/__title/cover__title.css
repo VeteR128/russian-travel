@@ -10,26 +10,36 @@
   font-size: 4.5rem;
   line-height: 106%;
   text-align: center;
-  width: 560px;
+  max-width: 560px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
 
   margin: 0;
+  margin-top: 245px;
+  z-index: 2;
+}
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    margin-top: 195px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__title {
+    margin-top: 115px;
+  }
 }
 @media screen and (max-width: 560px) {
   .cover__title {
     font-size: 2rem;
     line-height: 109%;
-    width: 288px;
 
-    text-align: center;
+    margin-top: 50px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    font-size: 2rem;
-    line-height: 109%;
-    width: 288px;
-
-    text-align: center;
+    margin-top: 33px;
   }
 }

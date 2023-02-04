@@ -16,8 +16,7 @@
 @media screen and (max-width: 320px) {
   .footer__link {
     margin: 0 0 32px 0;
-    display: flex;
-    flex-direction: row;
+
     font-size: 1.5rem;
     line-height: 100%;
   }

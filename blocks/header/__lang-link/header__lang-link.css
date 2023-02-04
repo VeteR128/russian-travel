@@ -8,13 +8,14 @@
   color: white;
   align-items: stretch;
 }
-.header__lang {
-  margin-bottom: 5px;
-}
-.header__lang-link:first-child {
-  margin-right: 18px;
+
+.header__lang-link:active {
   text-decoration: underline;
 }
+.header__lang-link:last-child {
+  margin-left: 18px;
+}
+
 @media screen and (max-width: 480px) {
   .header__lang-link {
     font-size: 1.3rem;
@@ -25,6 +26,5 @@
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 1.125rem;
-    line-height: 111%;
   }
 }

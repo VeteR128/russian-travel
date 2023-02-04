@@ -6,11 +6,6 @@
   margin: 92px 3.75% 0;
   padding-bottom: 24px;
 }
-@media screen and (max-width: 1024px) {
-  .footer {
-    margin: 92px 3.75% 0;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .footer {

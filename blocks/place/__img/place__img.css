@@ -10,8 +10,6 @@
 }
 @media screen and (max-width: 1024px) {
   .place__img {
-    margin-left: 0;
-
     margin-right: 0px;
     width: 440px;
   }
@@ -19,23 +17,18 @@
 
 @media screen and (max-width: 768px) {
   .place__img {
-    margin-left: 0;
-
     margin-right: 0;
     width: 340px;
   }
 }
 @media screen and (max-width: 668px) {
   .place__img {
-    margin-left: 0;
-
-    margin-right: 0;
-    width: 290px;
+    width: 240px;
   }
 }
 @media screen and (max-width: 555px) {
   .place__img {
-    width: 190px;
+    width: 140px;
   }
 }
 

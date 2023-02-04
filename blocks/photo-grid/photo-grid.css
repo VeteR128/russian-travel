@@ -12,8 +12,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 14px;
-    margin: 92px 0 0;
-    padding: 0 7.5% 0;
   }
 }
 
@@ -23,7 +21,6 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 16px;
     margin: 88px 0 0;
-    padding: 0 7.5% 0;
   }
 }
 @media screen and (max-width: 320px) {
@@ -32,6 +29,5 @@
     grid-template-rows: repeat(12, 1fr);
     gap: 12px;
     margin: 64px 0 0;
-    padding: 0 7.5% 0;
   }
 }
