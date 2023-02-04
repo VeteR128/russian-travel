@@ -2,4 +2,4 @@
 
 Проект представляет собой одностраничный html , в разрешениях 1280px 1024px 768px 320px c использованием grid для построения сеток.
 
-https://github.com/VeteR128/russian-travel
+https://veter128.github.io/russian-travel/
