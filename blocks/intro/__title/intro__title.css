@@ -22,8 +22,6 @@
 }
 @media screen and (max-width: 451px) {
   .intro__title {
-    margin: 88px 0 0 24px;
-
     font-size: 2.3rem;
     line-height: 109%;
   }

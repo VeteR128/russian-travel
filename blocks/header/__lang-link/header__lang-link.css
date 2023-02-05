@@ -7,10 +7,11 @@
   text-decoration: none;
   color: white;
   align-items: stretch;
+  margin-right: 18px;
 }
 
 .header__lang-link:last-child {
-  margin-left: 18px;
+  margin-right: 0;
 }
 
 @media screen and (max-width: 480px) {

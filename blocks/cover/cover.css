@@ -1,5 +1,5 @@
 .cover {
-  display: grid;
+  position: relative;
   color: #ffffff;
   text-decoration: none;
 }
